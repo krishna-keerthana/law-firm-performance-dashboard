@@ -1,0 +1,161 @@
+ClientKey,ClientName,Sector,ClientCountry
+C0001,Client 001,Telecoms,China
+C0002,Client 002,Media & Sport,France
+C0003,Client 003,Life Sciences,Singapore
+C0004,Client 004,Automotive,Netherlands
+C0005,Client 005,Financial Services,Singapore
+C0006,Client 006,Retail,Italy
+C0007,Client 007,Media & Sport,Singapore
+C0008,Client 008,Media & Sport,France
+C0009,Client 009,Public Sector,Spain
+C0010,Client 010,Telecoms,Netherlands
+C0011,Client 011,Retail,Germany
+C0012,Client 012,Public Sector,Netherlands
+C0013,Client 013,Public Sector,Spain
+C0014,Client 014,Media & Sport,France
+C0015,Client 015,Media & Sport,United Arab Emirates
+C0016,Client 016,Public Sector,Sweden
+C0017,Client 017,Media & Sport,China
+C0018,Client 018,Automotive,United Arab Emirates
+C0019,Client 019,Telecoms,France
+C0020,Client 020,Life Sciences,United Kingdom
+C0021,Client 021,Telecoms,Spain
+C0022,Client 022,Technology,Italy
+C0023,Client 023,Retail,Germany
+C0024,Client 024,Financial Services,Singapore
+C0025,Client 025,Life Sciences,Sweden
+C0026,Client 026,Life Sciences,Singapore
+C0027,Client 027,Media & Sport,France
+C0028,Client 028,Automotive,Singapore
+C0029,Client 029,Public Sector,Germany
+C0030,Client 030,Life Sciences,Spain
+C0031,Client 031,Financial Services,Spain
+C0032,Client 032,Energy,China
+C0033,Client 033,Telecoms,Netherlands
+C0034,Client 034,Retail,Germany
+C0035,Client 035,Life Sciences,Netherlands
+C0036,Client 036,Telecoms,Netherlands
+C0037,Client 037,Media & Sport,France
+C0038,Client 038,Financial Services,France
+C0039,Client 039,Telecoms,Germany
+C0040,Client 040,Media & Sport,Italy
+C0041,Client 041,Telecoms,Netherlands
+C0042,Client 042,Energy,Spain
+C0043,Client 043,Telecoms,United Arab Emirates
+C0044,Client 044,Life Sciences,Germany
+C0045,Client 045,Public Sector,Australia
+C0046,Client 046,Financial Services,Singapore
+C0047,Client 047,Energy,France
+C0048,Client 048,Energy,Netherlands
+C0049,Client 049,Automotive,Germany
+C0050,Client 050,Telecoms,Netherlands
+C0051,Client 051,Energy,Spain
+C0052,Client 052,Automotive,France
+C0053,Client 053,Energy,United Kingdom
+C0054,Client 054,Telecoms,Spain
+C0055,Client 055,Public Sector,United Arab Emirates
+C0056,Client 056,Technology,Netherlands
+C0057,Client 057,Media & Sport,China
+C0058,Client 058,Retail,Spain
+C0059,Client 059,Retail,China
+C0060,Client 060,Retail,Germany
+C0061,Client 061,Technology,Italy
+C0062,Client 062,Retail,Singapore
+C0063,Client 063,Automotive,United Kingdom
+C0064,Client 064,Life Sciences,Australia
+C0065,Client 065,Financial Services,Spain
+C0066,Client 066,Automotive,Italy
+C0067,Client 067,Technology,Sweden
+C0068,Client 068,Retail,United Arab Emirates
+C0069,Client 069,Retail,United Kingdom
+C0070,Client 070,Retail,China
+C0071,Client 071,Automotive,Sweden
+C0072,Client 072,Life Sciences,Australia
+C0073,Client 073,Automotive,Italy
+C0074,Client 074,Technology,Sweden
+C0075,Client 075,Energy,Spain
+C0076,Client 076,Media & Sport,China
+C0077,Client 077,Financial Services,China
+C0078,Client 078,Financial Services,China
+C0079,Client 079,Energy,Italy
+C0080,Client 080,Media & Sport,Singapore
+C0081,Client 081,Media & Sport,Netherlands
+C0082,Client 082,Technology,Italy
+C0083,Client 083,Media & Sport,Singapore
+C0084,Client 084,Automotive,United Kingdom
+C0085,Client 085,Technology,United Arab Emirates
+C0086,Client 086,Retail,United Kingdom
+C0087,Client 087,Retail,Sweden
+C0088,Client 088,Automotive,Italy
+C0089,Client 089,Financial Services,Italy
+C0090,Client 090,Retail,Italy
+C0091,Client 091,Energy,Italy
+C0092,Client 092,Technology,Spain
+C0093,Client 093,Public Sector,Spain
+C0094,Client 094,Public Sector,Sweden
+C0095,Client 095,Energy,Singapore
+C0096,Client 096,Media & Sport,Sweden
+C0097,Client 097,Energy,United Arab Emirates
+C0098,Client 098,Public Sector,China
+C0099,Client 099,Automotive,Australia
+C0100,Client 100,Life Sciences,France
+C0101,Client 101,Retail,United Arab Emirates
+C0102,Client 102,Media & Sport,Germany
+C0103,Client 103,Telecoms,Germany
+C0104,Client 104,Public Sector,Singapore
+C0105,Client 105,Energy,United Kingdom
+C0106,Client 106,Media & Sport,China
+C0107,Client 107,Financial Services,Singapore
+C0108,Client 108,Life Sciences,Australia
+C0109,Client 109,Life Sciences,United Arab Emirates
+C0110,Client 110,Media & Sport,China
+C0111,Client 111,Public Sector,France
+C0112,Client 112,Energy,China
+C0113,Client 113,Automotive,France
+C0114,Client 114,Automotive,Netherlands
+C0115,Client 115,Energy,France
+C0116,Client 116,Life Sciences,Spain
+C0117,Client 117,Media & Sport,Singapore
+C0118,Client 118,Life Sciences,Germany
+C0119,Client 119,Media & Sport,China
+C0120,Client 120,Public Sector,Sweden
+C0121,Client 121,Life Sciences,Sweden
+C0122,Client 122,Retail,Australia
+C0123,Client 123,Technology,Spain
+C0124,Client 124,Energy,Netherlands
+C0125,Client 125,Retail,Australia
+C0126,Client 126,Retail,Sweden
+C0127,Client 127,Retail,Sweden
+C0128,Client 128,Telecoms,Netherlands
+C0129,Client 129,Media & Sport,Germany
+C0130,Client 130,Energy,France
+C0131,Client 131,Life Sciences,Germany
+C0132,Client 132,Telecoms,Germany
+C0133,Client 133,Life Sciences,Singapore
+C0134,Client 134,Telecoms,United Kingdom
+C0135,Client 135,Life Sciences,Sweden
+C0136,Client 136,Media & Sport,Australia
+C0137,Client 137,Telecoms,Singapore
+C0138,Client 138,Energy,Spain
+C0139,Client 139,Financial Services,United Kingdom
+C0140,Client 140,Automotive,China
+C0141,Client 141,Energy,United Kingdom
+C0142,Client 142,Financial Services,United Arab Emirates
+C0143,Client 143,Media & Sport,United Arab Emirates
+C0144,Client 144,Technology,Germany
+C0145,Client 145,Technology,Singapore
+C0146,Client 146,Automotive,France
+C0147,Client 147,Public Sector,Germany
+C0148,Client 148,Telecoms,Singapore
+C0149,Client 149,Financial Services,Australia
+C0150,Client 150,Telecoms,Germany
+C0151,Client 151,Life Sciences,Australia
+C0152,Client 152,Financial Services,Australia
+C0153,Client 153,Financial Services,Singapore
+C0154,Client 154,Retail,France
+C0155,Client 155,Telecoms,Netherlands
+C0156,Client 156,Public Sector,United Arab Emirates
+C0157,Client 157,Energy,Australia
+C0158,Client 158,Energy,Singapore
+C0159,Client 159,Telecoms,Spain
+C0160,Client 160,Energy,Germany

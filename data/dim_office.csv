@@ -1,0 +1,13 @@
+OfficeKey,Office,Country,ReportingCurrency,Region
+LON,London,United Kingdom,GBP,UK
+MAN,Manchester,United Kingdom,GBP,UK
+PAR,Paris,France,EUR,Europe
+FRA,Frankfurt,Germany,EUR,Europe
+AMS,Amsterdam,Netherlands,EUR,Europe
+MAD,Madrid,Spain,EUR,Europe
+MIL,Milan,Italy,EUR,Europe
+STO,Stockholm,Sweden,EUR,Europe
+DUB,Dubai,United Arab Emirates,USD,Middle East
+SIN,Singapore,Singapore,USD,Asia Pacific
+HKG,Hong Kong,China,USD,Asia Pacific
+SYD,Sydney,Australia,USD,Asia Pacific

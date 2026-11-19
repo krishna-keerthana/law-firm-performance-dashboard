@@ -1,0 +1,46 @@
+// ===== Hours and utilisation (fact_time) =====
+Total Hours = SUM ( fact_time[Hours] )
+
+Billable Hours =
+CALCULATE ( SUM ( fact_time[Hours] ), fact_time[IsBillable] = TRUE () )
+
+// Target hours scaled to the number of working days in the selected period (about 252 a year)
+Target Hours =
+VAR WorkingDays = CALCULATE ( COUNTROWS ( dim_date ), dim_date[IsWorkingDay] = TRUE () )
+RETURN SUMX ( dim_lawyer, dim_lawyer[AnnualTargetHours] ) * DIVIDE ( WorkingDays, 252 )
+
+Utilisation % = DIVIDE ( [Billable Hours], [Target Hours] )
+
+Time Value = SUM ( fact_time[StandardValue] )
+
+// ===== Billing and cash (fact_invoice) =====
+Billed = SUM ( fact_invoice[BilledAmount] )
+
+Write Offs = SUM ( fact_invoice[WriteOff] )
+
+Realisation % = DIVIDE ( [Billed], SUM ( fact_invoice[TimeValueBilled] ) )
+
+Collected = SUM ( fact_invoice[PaidAmount] )
+
+Collection % = DIVIDE ( [Collected], [Billed] )
+
+Outstanding =
+SUMX ( FILTER ( fact_invoice, ISBLANK ( fact_invoice[PaidDate] ) ), fact_invoice[BilledAmount] )
+
+Billed L12M =
+CALCULATE ( [Billed], DATESINPERIOD ( dim_date[Date], MAX ( dim_date[Date] ), -12, MONTH ) )
+
+Debtor Days = DIVIDE ( [Outstanding], [Billed L12M] ) * 365
+
+Average Days to Pay =
+AVERAGEX (
+    FILTER ( fact_invoice, NOT ISBLANK ( fact_invoice[PaidDate] ) ),
+    DATEDIFF ( fact_invoice[InvoiceDate], fact_invoice[PaidDate], DAY )
+)
+
+// ===== Time intelligence =====
+Billed Last Year = CALCULATE ( [Billed], SAMEPERIODLASTYEAR ( dim_date[Date] ) )
+
+Billed YoY % = DIVIDE ( [Billed] - [Billed Last Year], [Billed Last Year] )
+
+Billed FYTD = TOTALYTD ( [Billed], dim_date[Date], "30/4" )
