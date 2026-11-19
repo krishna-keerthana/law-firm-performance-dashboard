@@ -2,7 +2,7 @@
 
 A Power BI project analysing the finances of **Northbridge Partners**, a fictional international law firm with 12 offices, 320 lawyers, 160 clients and 700 matters (January 2025 to October 2026). All data is synthetic.
 
-![Executive summary](screenshots/executive_summary.png)
+![Executive summary](Screenshots/executive_summary.png)
 
 ## Business questions
 1. How much are we billing, and is it growing year on year?
@@ -16,7 +16,7 @@ A Power BI project analysing the finances of **Northbridge Partners**, a fiction
 - 8 one-to-many, single-direction relationships. `dim_client` and `dim_practice` connect through `dim_matter`, and `dim_office` through `dim_lawyer`. `dim_date` is marked as the date table.
 - Practice area is taken from the **matter** (the work done), not the lawyer, to avoid ambiguous filter paths.
 
-![Model view](screenshots/model.png)
+![Model view](Screenshots/model.png)
 
 **Design note:** billing is recorded against matters and utilisation against lawyers, so each report page only uses slicers that follow the model's relationships. This stops numbers being silently wrong when a slicer is applied.
 
@@ -47,8 +47,8 @@ Utilisation %, Realisation %, Collection %, Debtor Days, Billed YoY %, Billed La
 | People and utilisation | Billable hours against targets by office and grade | Financial year, region, grade |
 | Clients and matters | Fee arrangements, top clients, payment speed, unpaid invoices | Financial year, client sector |
 
-![People and utilisation](screenshots/people.png)
-![Clients and matters](screenshots/clients.png)
+![People and utilisation](Screenshots/people.png)
+![Clients and matters](Screenshots/clients.png)
 
 ## Tools
 Power BI Desktop, Power Query (M), DAX, Python (pandas, NumPy) for the synthetic data
